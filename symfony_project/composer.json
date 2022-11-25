@@ -21,7 +21,7 @@
         "symfony/dotenv": "6.0.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "6.0.*",
-        "symfony/maker-bundle": "^1.36",
+        "symfony/maker-bundle": "^1.48",
         "symfony/mercure-bundle": "^0.3.4",
         "symfony/monolog-bundle": "^3.0",
         "symfony/property-access": "6.0.*",
@@ -30,8 +30,9 @@
         "symfony/runtime": "6.0.*",
         "symfony/security-bundle": "6.0.*",
         "symfony/serializer": "6.0.*",
+        "symfony/ux-react": "^2.5",
         "symfony/yaml": "6.0.*",
-        "zenstruck/foundry": "^1.16"
+        "zenstruck/foundry": "^1.23"
     },
     "config": {
         "allow-plugins": {
