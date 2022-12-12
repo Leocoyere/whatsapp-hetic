@@ -1,0 +1,18 @@
+{% block javascripts %}
+<!-- <script>
+    const url = new URL('http://localhost:9090/.well-known/mercure');
+    url.searchParams.append('topic', 'http://monsite.com/ping');
+    const eventSource = new EventSource(url);
+    eventSource.onmessage = e => {
+        document.querySelector('h1').insertAdjacentHTML("afterend", "<div class='alert alert-sucess'>Ping !</div>")
+        window.setTimeout(() => {
+            const alert = document.querySelector('.alert')
+            alert.parentNode.removeChild(alert)
+        }, 2000)
+    };
+</script> -->
+{% endblock %}
+
+{% block body %}
+    <h1>Bienvenue sur la home</h1>
+{% endblock %}

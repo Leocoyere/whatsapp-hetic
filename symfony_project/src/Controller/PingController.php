@@ -6,6 +6,7 @@ use App\Entity\User;
 use App\Service\CookieHelper;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Mercure\HubInterface;
+use Symfony\Component\Mercure\Publisher;
 use Symfony\Component\Mercure\Update;
 use Symfony\Component\Routing\Annotation\Route;
 

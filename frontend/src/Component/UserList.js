@@ -11,6 +11,7 @@ export default function UserList() {
     const handleSubmit = (e) => {
         e.preventDefault();
         const userId = e.target[0].value;
+        console.log(userId)
         backendPing(userId).then(data => console.log(data))
     }
 
